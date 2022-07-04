@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>PRODUCTIVITY EMPIRE | DS</title>
+        <link rel="stylesheet" href="Styles/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+        <header>
+                
+            <div class="topnav">
+                <a class = "empiretitle" href="">PRODUCTIVITY EMPIRE</a>
+                <a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                <a href="quotes.html">Quotes</a>
+                <a href="tips.html">Tips</a>
+                <a href="benefits.html">Benefits</a>
+                <a href="books.html">Books</a>
+                <a class="active" href="about.html">About</a>
+                <a href= #lightmode onclick = "myFunction()">Light Mode</a>
+            </div>
+            
+            <!-- Load icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- The form -->
+            <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <hr class="new4">
+
+            <h1 class = "topic"> ABOUT </h1>
+            <hr class="new4">
+            <br>
+
+        </header>
+
+        <div class = "sitecontent">
+
+            
+            <div class="container">
+                <img id = "creatorms8" src = "https://media-exp1.licdn.com/dms/image/C4E03AQFGxjKOd6nGXQ/profile-displayphoto-shrink_200_200/0?e=1602720000&v=beta&t=qL6d_12jzgp_vsmOIN_ZRkzppGiOBkJbaVAzk_4TGWY" width = 300  height = 300 />
+                
+                <div class="container__text">
+                    <br>
+                    <p> Dion Singh is a year 3 student enrolled in the Electrical and Computer Engineering degree programme at the University of the West Indies. He is a self-taught Front-End Developer. His skills include HTML, CSS, JavaScript and C++.</p>
+                </div>
+            </div>
+
+        </div class = "sitecontent">
+
+        <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+
+        <script>
+
+              $(document).ready(function() {
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 20) {
+            $('#toTopBtn').fadeIn();
+            } else {
+            $('#toTopBtn').fadeOut();
+            }
+            });
+            
+            $('#toTopBtn').click(function() {
+            $("html, body").animate({
+            scrollTop: 0
+            }, 1000);
+            return false;
+            });
+            });
+
+        </script>
+
+        <div id = #lightmode>
+            <script>
+                function myFunction() {
+                var element = document.body;
+                element.classList.toggle("light-mode");
+                }
+            </script>
+        </div>
+
+        <!-- Load font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- The social media icon bar -->
+        <div class="icon-bar">
+            <a href="https://www.facebook.com/" class="facebook" target = "_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/Dion_MS8" class="twitter" target = "_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.google.com/" class="google" target = "_blank"><i class="fa fa-google"></i></a>
+            <a href="https://www.linkedin.com/in/dion-singh-914467164/" class="linkedin" target = "_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/" class="youtube" target = "_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+
+    </body>
+
+</html>
+
+
+

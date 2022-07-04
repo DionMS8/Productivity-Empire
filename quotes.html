@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>PRODUCTIVITY EMPIRE | DS</title>
+        <link rel="stylesheet" href="Styles/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+
+    <body>
+    
+        <header>
+                
+                <div class="topnav">
+                    <a class = "empiretitle" href="">PRODUCTIVITY EMPIRE</a>
+                    <a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                    <a class="active" href="quotes.html">Quotes</a>
+                    <a href="tips.html">Tips</a>
+                    <a href="benefits.html">Benefits</a>
+                    <a href="books.html">Books</a>
+                    <a href="about.html">About</a>
+                    <a href= #lightmode onclick = "myFunction()">Light Mode</a>
+                </div>
+                
+                <!-- Load icon library -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <form class="example" action="action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <hr class="new4">
+
+            
+
+                <h1 class = "topic"> QUOTES </h1>
+
+                <hr class="new4">
+                <br>
+
+                <div class="sitecontent">
+
+                    <img class = "benefits" src= "https://i.pinimg.com/736x/6b/1d/d2/6b1dd2ba700e2662306dcd0b25363714.jpg" width = 400 height = 400>
+                    <br>
+                    <hr class="new4">
+                    <br>
+                    <img class = "benefits" src= "https://res.cloudinary.com/teepublic/image/private/s--Ei1KQQ_y--/c_crop,x_10,y_10/c_fit,h_1109/c_crop,g_north_west,h_1260,w_945,x_-96,y_-76/co_rgb:191919,e_colorize,u_Misc:One%20Pixel%20Gray/c_scale,g_north_west,h_1260,w_945/fl_layer_apply,g_north_west,x_-96,y_-76/bo_126px_solid_white/e_overlay,fl_layer_apply,h_1260,l_Misc:Art%20Print%20Bumpmap,w_945/e_shadow,x_6,y_6/c_limit,h_1134,w_1134/c_lpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1510935718/production/designs/2069460_0.jpg" width = 400 height = 400>
+                    <br>
+                    <hr class="new4">
+                    <br>
+                    <img class = "benefits" src= "https://i.pinimg.com/originals/ac/83/09/ac8309c89a788ea90fba5260f95bfca5.jpg" width = 400 height = 400>
+                    <br>
+                    <hr class="new4">
+                    <br>
+                    <img class = "benefits" src= "https://thefunnybeaver.com/wp-content/uploads/2017/04/Motivational-Quotes-For-Success-219.jpg" width = 400 height = 450>
+                    <br>
+                    <hr class="new4">
+                    <br>
+                    <img class = "benefits" src= "https://i.etsystatic.com/8074329/r/il/5329ce/574444860/il_570xN.574444860_ge3d.jpg" width = 400 height = 300>
+                    <br>
+                    
+                </div class="sitecontent">
+
+                <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+
+                <script>
+
+                    $(document).ready(function() {
+                    $(window).scroll(function() {
+                    if ($(this).scrollTop() > 20) {
+                    $('#toTopBtn').fadeIn();
+                    } else {
+                    $('#toTopBtn').fadeOut();
+                    }
+                    });
+                    
+                    $('#toTopBtn').click(function() {
+                    $("html, body").animate({
+                    scrollTop: 0
+                    }, 1000);
+                    return false;
+                    });
+                    });
+
+                </script>
+
+                <br>
+                <hr class="new4">
+
+                <footer>
+                        <p class = "footer">DionMS8&trade;</p>
+                </footer>
+
+                <div id = #lightmode>
+                    <script>
+                        function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("light-mode");
+                        }
+                    </script>
+                </div>
+
+            </header>
+            
+            <!-- Load font awesome icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+            <!-- The social media icon bar -->
+            <div class="icon-bar">
+                <a href="https://www.facebook.com/" class="facebook" target = "_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/Dion_MS8" class="twitter" target = "_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.google.com/" class="google" target = "_blank"><i class="fa fa-google"></i></a>
+                <a href="https://www.linkedin.com/in/dion-singh-914467164/" class="linkedin" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/" class="youtube" target = "_blank"><i class="fa fa-youtube"></i></a>
+            </div>
+  
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
