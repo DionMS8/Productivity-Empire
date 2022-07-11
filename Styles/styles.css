@@ -44,11 +44,10 @@ h2 {
 
 .empiretitle {
     color: black;
-    text-shadow: 2px 2px 4px black;
     font-weight: 5000;
     font-size: 30px;
+    text-decoration: none;
 }
-
 
 .video {
     display: block;
@@ -56,15 +55,11 @@ h2 {
     margin-right: auto;
 }
 
-
-
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: gray;
     overflow: hidden;
 }
   
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: white;
@@ -74,14 +69,15 @@ h2 {
     font-size: 17px;
 }
   
-/* Change the color of links on hover */
 .topnav a :hover {
+    text-decoration: none;
     background-color: lightgrey ;
     color: white;
 }
   
 /* Add a color to the active/current link */
 .topnav a.active {
+    text-decoration: none;
     background-color: gold;
     color: white;
 }
